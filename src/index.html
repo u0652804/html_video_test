@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<video width="320" height="240" autoplay loop muted id='vid1'>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<video width="320" height="240" autoplay loop muted id='vid2'>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<video width="320" height="240" autoplay loop muted id='vid3'>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<video width="320" height="240" autoplay loop muted id='vid4'>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+</body>
+
+<script>
+    document.getElementById('vid1').play();
+	document.getElementById('vid2').play();
+	document.getElementById('vid3').play();
+	document.getElementById('vid4').play();
+	/**
+	1. 動態抓取影片寬高配置給 video params
+	2. 聲音問題check
+	3. react動態生成
+	4. 絕對位置動態排版
+	5. 圖片播放
+	**/
+	/** references
+	https://www.w3schools.com/html/html5_video.asp
+	https://stackoverflow.com/questions/17994666/video-auto-play-is-not-working-in-safari-and-chrome-desktop-browser
+	
+	**/
+</script>
+
+</html>
